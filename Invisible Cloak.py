@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 
 import time
-cap=cv2.VideoCapture(0)#Read from the web cam
+cap=cv2.VideoCapture(0)#Read from the default web cam i.e why 0
 
 time.sleep(3) #for the system to sleep for 3 second before the webcam starts
 for i in range(30):
